@@ -49,8 +49,7 @@ $edsbootstrap_options = get_theme_mod( 'edsbootstrap_theme_options' );
         <div class="row">
             <!-- Blog Content -->
             <div class="col-md-9">
-            	 
-                
+            	
 				<?php
                 if ( have_posts() ) :
                 

@@ -1,0 +1,27 @@
+.slider {
+
+}
+
+.slider.home-slider{
+
+}
+
+.slider.home-slider .owl-carousel-item-imgoverlay{
+	opacity: 1;
+	height: auto;
+	background: transparent !important;
+	color: #414141;
+	text-shadow: none;
+	top: 50%;
+	margin-top: -70px;
+}
+
+
+.slider.home-slider .owl-carousel-item-imgoverlay .owl-carousel-item-imgtitle{
+	display: none;
+}
+
+.slider.home-slider .owl-carousel-item-imgoverlay .owl-carousel-item-imgcontent .container{
+	text-align: left;
+	padding: 0 30% 0 20px;
+}

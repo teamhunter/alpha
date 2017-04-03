@@ -6,9 +6,20 @@ Template Name: Home Template
 get_header(); ?>
 
 <!-- Section: Page Header -->
-<?php echo do_shortcode("[huge_it_slider id='3']"); ?>
+<?php echo do_shortcode("
+[owl-carousel 
+category='homepage-carousel' 
+autoPlay='true' 
+items='1' 
+itemsDesktop='1920,1' 
+itemsDesktopSmall='979,1' 
+itemsTablet='768,1' 
+itemsMobile='480,1' 
+baseClass='slider home-slider'
+]
+"); ?>
 
-<section class="section-page-header page">
+<section class="section-page-header page hide">
     <div class="container">
         <div class="row">
 
